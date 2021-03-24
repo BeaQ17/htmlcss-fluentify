@@ -147,7 +147,11 @@ main{
     
 }
 
-/* course features central band */
+/*** course features central band ***/
+.features{
+    overflow: hidden;
+}
+
 .section{
     float: left;
     width: 31%;
@@ -184,7 +188,6 @@ main{
     color: grey;
 }
 
-
 /* left section */
 .img_l{
     background-image: url('../../img/profile.svg');
@@ -195,13 +198,46 @@ main{
     background-image: url('../../img/computer.svg');
 }
 
-
 /* right section */
 .img_r{
     background-image: url('../../img/doc.svg');
 }
 
 
+/* hr */
+.divide{
+    width: 90%;
+    margin: 25px auto;
+    color: lightgrey;
+    height: 1px;
+
+}
+
+
+/*** level test ad bottom band ***/
+.section_b{
+    width: 45%;
+    float: left;
+    height: 500px;
+}
+
+.range{
+    background-image: url('../../img/mountain.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.test{
+    padding: 10px;
+}
+
+.esper{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: grey;
+}
 
 
 
