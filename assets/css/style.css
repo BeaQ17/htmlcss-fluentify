@@ -14,7 +14,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: aquamarine; /* initial */
+    /*background-color: aquamarine;  initial */
     min-width: 1270px;
 }
 
@@ -121,7 +121,7 @@ nav{
 /***** main *****/
 
 main{
-    background-color: darkslateblue; /* initial */
+    /* background-color: darkslateblue; initial */
     height: 1200px;    
 }
 
@@ -133,8 +133,6 @@ main{
     background-color: rgb(189, 186, 186);
     text-align: center;
 }
-
-
 
 #titlegrey{
     font-size: 20px;
@@ -148,6 +146,61 @@ main{
     color: grey;
     
 }
+
+/* course features central band */
+.section{
+    float: left;
+    width: 31%;
+    margin: 2.5px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.img_section {
+    background-size: 100%;
+    width: 120px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 30%;
+}
+
+.smaller{
+    width: 25%;
+    margin: 15px auto;
+    color: grey;
+    height: 1px;
+}
+
+.titlegreen{
+    color: #7CBB02;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+} 
+
+.lorem{
+    text-align: center;
+    color: grey;
+}
+
+
+/* left section */
+.img_l{
+    background-image: url('../../img/profile.svg');
+}
+
+/* center section */
+.img_c{
+    background-image: url('../../img/computer.svg');
+}
+
+
+/* right section */
+.img_r{
+    background-image: url('../../img/doc.svg');
+}
+
 
 
 
