@@ -19,12 +19,79 @@ body{
 
 
 /***** header *****/
-
 header{
-    background-color: cadetblue; /* initial */
-    height: 500px;
+    background-image: url('../img/background-header.png');
+    background-color: #0C325A;
+    height: 500px;  
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+nav{
+    height: 60px;
     
 }
+
+/* logo */
+.logo{
+    width: 15%;
+    margin-top: 5px;
+    line-height: 60px;
+    float: left;
+}
+
+/* left menu */
+.left{
+    width: 45%;
+    line-height: 60px;
+    float: left;
+}
+
+.left ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.left ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 8px;
+    font-size: 12px;
+    color: white;
+}
+
+/* right menu */
+.right{
+    text-align: right;
+    width: 40%;
+    line-height: 60px;
+    float: left;
+}
+
+.right a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 8px;
+    font-size: 12px;
+    color: white; 
+}
+
+.button{
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.outline{
+    border: 1px solid white;
+}
+
+.solid{
+    background-color: #7CBB02;
+}
+
 
 
 /***** main *****/
@@ -43,3 +110,4 @@ footer{
     height: 200px;
     
 }
+
