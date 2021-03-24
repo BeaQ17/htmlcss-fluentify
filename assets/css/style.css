@@ -122,9 +122,36 @@ nav{
 
 main{
     background-color: darkslateblue; /* initial */
-    height: 1200px;
+    height: 1200px;    
+}
+
+
+/* grey upper band */
+.greyband{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(189, 186, 186);
+    text-align: center;
+}
+
+
+
+#titlegrey{
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 30px;
     
 }
+
+#textgrey{
+    margin-top: 5px;
+    color: grey;
+    
+}
+
+
+
+
 
 
 /***** footer *****/
@@ -134,4 +161,5 @@ footer{
     height: 200px;
     
 }
+
 
