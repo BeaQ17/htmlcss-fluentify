@@ -10,6 +10,36 @@
     clear: both;
 }
 
+/***** body *****/
+
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: aquamarine; /* initial */
+}
+
+
+/***** header *****/
+
+header{
+    background-color: cadetblue; /* initial */
+    height: 500px;
+    
+}
+
+
+/***** main *****/
+
+main{
+    background-color: darkslateblue; /* initial */
+    height: 1200px;
+    
+}
+
+
+/***** footer *****/
+
+footer{
+    background-color: dodgerblue; /* initial */
+    height: 200px;
+    
 }
