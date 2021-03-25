@@ -61,7 +61,7 @@
             <!-- gym img -->
             <div class="section">
                 <div class="img_l img_section"></div>
-                <h3 class="titlegreen">Piano Formativo configurato sul proprio livello</h3>
+                <h3 class="titlegreen">Piano formativo configurato sul proprio livello</h3>
                 <hr class="smaller"> 
                 <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum suscipit earum pariatur voluptates explicabo tenetur, veritatis quasi harum sequi at sunt rerum sit, eius qui nemo tempora. Perspiciatis, vitae laboriosam.</p>
             </div>
@@ -100,17 +100,34 @@
 <!-- footer -->
     <footer>
 
-        <div class="container">
-            <h3></h3>
-            <span class="bottomtext"></span>
-            <span class="bottomtext underline"></span>
-            <div class="green"></div>
-            <div class="green"></div>
+        <div class="container clearfix">
+            <div class="col-2">
+                <h2>Struttura un piano</h2>
+            </div>
+            <div class="col-2">
+                <span>Sono:</span>
+                <form id="form" action="">
+                    <select name="level" id="level">
+                        <option value="">Seleziona</option>
+                        <option value="principiante">Principiante</option>
+                        <option value="intermedio">intermedio</option>
+                        <option value="avanzato">avanzato</option>
+                    </select>
+                </form>
+                
+                <a href="#" class="button solid">Visualizza il tuo piano</a>
+            </div>
+
         </div>
+        <div class="help button solid">Help</div>
 
     </footer>
 
-
+ <!-- <h3></h3>
+            <span class="bottomtext"></span>
+            <span class="bottomtext underline"></span>
+            <div class="green"></div>
+            <div class="green"></div>-->
     
 </body>
 </html>

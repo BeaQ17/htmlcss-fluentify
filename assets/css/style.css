@@ -10,7 +10,7 @@
     clear: both;
 }
 
-/***** body *****/
+/*********** body ***********/
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -19,7 +19,7 @@ body{
 }
 
 
-/***** header *****/
+/*********** header ***********/
 header{
     background-image: url('../../img/background-header.png');
     background-color: #0C325A;
@@ -30,7 +30,7 @@ header{
 }
 
 .container{
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
@@ -89,6 +89,7 @@ nav{
     color: white;
     text-transform: uppercase;
     font-size: 12px;
+    text-decoration: none;
 }
 
 .outline{
@@ -111,14 +112,11 @@ nav{
     width: fit-content;
     padding: 15px;
     margin-top: 15px;
-
 }
 
 
 
-
-
-/***** main *****/
+/*********** main ***********/
 
 main{
     /* background-color: darkslateblue; initial */
@@ -154,10 +152,9 @@ main{
 
 .section{
     float: left;
-    width: 31%;
-    margin: 2.5px;
+    width: 33%;
     margin-top: 20px;
-    padding: 10px;
+    padding: 25px;
 }
 
 .img_section {
@@ -171,7 +168,7 @@ main{
 
 .smaller{
     width: 25%;
-    margin: 15px auto;
+    margin: 25px auto;
     color: grey;
     height: 1px;
 }
@@ -230,6 +227,7 @@ main{
 
 .test{
     padding: 10px;
+    padding-left: 40px;
 }
 
 .esper{
@@ -240,15 +238,39 @@ main{
 }
 
 
-
-
-
-/***** footer *****/
+/*********** footer ***********/
 
 footer{
-    background-color: dodgerblue; /* initial */
-    height: 200px;
-    
+    background-color: rgb(189, 186, 186); /* initial */
+    height: 100px;
 }
 
+.col-2{
+    float: left;
+    width: 50%;
+    line-height: 100px;
+}
+
+#form{
+    display: inline-block;
+}
+
+#level{
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.help{
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+}
 
